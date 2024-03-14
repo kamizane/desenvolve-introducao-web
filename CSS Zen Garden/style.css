@@ -8,5 +8,33 @@
 
 html {
     background:#A67449 ;
-    color:#140000
+    color:#140000 ;
+
+}
+body {
+    font-family: 'georgia', sans-serif;
+    font-size: 1.3rem;
+    text-indent: 1em;
+    text-align:center;
+}
+h1 {
+    font-size: 1.8rem ;
+    text-align:center; 
+}
+h2 {
+    font-size: 1.4rem;
+    text-align:center; 
+}
+h3 {
+    font-size: 1.2rem;
+    text-align:center; 
+}
+.summary{
+    text-align:center;
+}
+.mainsupporting {
+    line-height: 1.5;
+}
+abbr {
+    font:small-caps;
 }
