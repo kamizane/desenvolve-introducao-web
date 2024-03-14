@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Seletores.css</title>
+    <style>
+        a {
+            color: red;
+        }
+
+        a:hover {
+            color: lime;
+        }
+
+        p {
+            font-family: Arial;
+        }
+
+        h1+p {
+            font-weight: bold;
+        }
+
+        .destaque {
+            font-family: arial;
+        }
+
+        p.destaque {
+            font-weight: bold;
+        }
+
+        strong.destaque {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Exercício 1:</h2>
+    <p> esse texto não deve estar em negrito:
+        <a href="https://www.youtube.com/watch?v=VYKT3cTlRIE">Clique aqui</a>
+    </p>
+
+    <h1>Exercício 2:</h1>
+    <p>Esse texto deve estar em negrito</p>
+
+    <h2>Exercício 3:</h2>
+    <p class="destaque">Olá, negrito</p>
+    <p>Isso deve estar <strong class="destaque">Vermelho</strong></p>
+    <p></p>
+</body>
+
+</html>
