@@ -9,13 +9,12 @@
 html {
     background:#A67449 ;
     color:#140000 ;
-
-}
-body {
-    font-family: 'georgia', sans-serif;
+    font-family: 'Arial Narrow Bold', sans-serif;
     font-size: 1.3rem;
+}
+
+p {    
     text-indent: 1em;
-    text-align:center;
 }
 h1 {
     font-size: 1.8rem ;
@@ -36,5 +35,5 @@ h3 {
     line-height: 1.5;
 }
 abbr {
-    font:small-caps;
+    font-variant:small-caps;
 }
