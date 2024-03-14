@@ -1,0 +1,12 @@
+/* Color Theme Swatches in Hex */
+/*.Old-paper-vintage-texture-background-1-hex { color: #F2CEA2; }
+.Old-paper-vintage-texture-background-3-hex { color: #734C29; }
+.Old-paper-vintage-texture-background-5-hex { color: #D9AB82; }   
+.princiapl {color:#140000}
+.destaque { color: #402915; }
+.background { color: #A67449; }*/
+
+html {
+    background:#A67449 ;
+    color:#140000
+}
