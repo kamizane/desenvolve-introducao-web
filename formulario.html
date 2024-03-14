@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Pesquisa de satisfação</title>
+</head>
+
+<body>
+    <header>
+        <h1>Pesquisa de satisfação</h1>
+        <img src="https://fastly.picsum.photos/id/965/200/200.jpg?hmac=OalaXaaPbpRZbMwF3uJMUdZIpUmyqse0anUnQcbStrM" />
+    </header>
+    <main>
+        <section>
+            <h2>Dados pessoais</h2>
+            <form action="destino.html" method="post">
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" placeholder="Digite seu nome" id="nome" name="dados" required />
+
+                <p>
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" placeholder="Digite seu email" id="email" name="dados" required />
+                </p>
+                <p>
+                    <label for="tel">Telefone:</label>
+                    <input type="tel" placeholder="Digite seu telefone" id="tel" name="dados" required />
+                </p>
+        </section>
+        <section>
+            <h2>Pesquisa</h2>
+            <h3>Quais são seus gêneros de filmes favoritos?</h3>
+            <p>
+                <input type="radio" id="açao"  />
+                <label for="ação">Ação</label>
+                <input type="radio" id="comedia"  />
+                <label for="comedia">Comédia</label>
+                <input type="radio" id="romance" />
+                <label for="romance">Romance</label>
+            </p>
+            <p>
+            <h3>Qual filme indicado a "melhor filme" no Oscar 2023 você mais gostou?</h3>
+            <input type="radio" id="filme 1" name="oscar" />
+            <label for="filme 1">Avatar: O caminho da água</label>
+            <1 type="radio" id="filme 2" name="oscar" />
+            <label for="filme 2">Entre mulheres</label>
+            <input type="radio" id="filme3" name="oscar" />
+            <label for="filme 3">Triângulo da tristeza</label>
+            </p>
+            <p>
+            <h3>Selecione a plataforma de streaming que você mais utiliza para ver filmes</h3>
+            <select>
+                <option>Netflix</option>
+                <option>Globoplay</option>
+                <option>Disney+</option>
+                <option>Star+</option>
+                <option>Amazon Prime Video</option>
+                <option>HBO Max</option>
+            </select>
+        </section>
+        <section>
+            <p>
+                <input type="checkbox" id="compartilhar_dados" />
+                <label for="compartilhar_dados">Aceito que minhas espostas sejam compartilhadas com terceiros</label>
+            </p>
+            <p>
+                <input type="submit" value="Enviar" />
+            </p>
+        </section>
+        </form>
+    </main>
+</body>
+
+</html>
