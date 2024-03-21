@@ -15,28 +15,30 @@ html {
 }
 
 header {
-    background:#734C29 ;
+    background: #734C29;
     color: #F2CEA2;
 }
-header > h1 {
-    display:inline-block;
-        margin-left:1em;
-        margin-right:1em;
+
+header>h1 {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
-header > h2 {
-    display:inline-block;
+header>h2 {
+    display: inline-block;
 }
 
 .intro {
     height: 550px;
 }
+
 ul {
     list-style-type: none;
 }
 
-li{
-    margin:1em;
+li {
+    margin: 1em;
     text-align: center;
 }
 
@@ -72,10 +74,26 @@ abbr {
 }
 
 #design-archives {
-    display:none ;
+    display: none;
+}
+
+.explanation {
+    width: 60%;
+    border-right: solid 1px #1f295c;
+    padding-right: 2%;
+}
+
+#design-selection {
+    position: absolute;
+    width: 40%;
+    top: 560px;
+    left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .page-wrapper {
+    position: relative;
     width: 80%;
     max-width: 1280px;
     margin: auto;
@@ -86,6 +104,6 @@ footer {
 }
 
 footer a {
-    border: solid 2px #000000 ;
+    border: solid 2px #000000;
     padding: 0.5em;
 }
