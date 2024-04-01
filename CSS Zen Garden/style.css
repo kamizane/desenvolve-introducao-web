@@ -150,3 +150,36 @@ footer a {
 .participation > p {
     flex-basis: 50%;
 }
+
+a {
+    color: #402915;
+    font-weight:bolder;
+
+}
+
+a:hover {
+    color:#4029157e;
+}
+
+a:visited {
+    font-weight:100;
+}
+
+.mainsupporting p:first-of-type:first-letter{
+    float:initial;
+    font-size: 3em;
+    font-family:"lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.design-selection li {
+    border-top: solid #000000 1px;
+    padding-top: 6px;
+}
+
+.design-selection li:last-of-type{
+    border-bottom: solid #000000 2px;
+}
+
