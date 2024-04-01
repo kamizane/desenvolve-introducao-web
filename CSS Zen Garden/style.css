@@ -183,3 +183,45 @@ a:visited {
     border-bottom: solid #000000 2px;
 }
 
+@media screen and (max-width:768px){
+    #design-selection{
+        position:static;
+        width: 100%;
+
+    }
+
+    .explanation {
+        border-right: none;
+        padding-right: none;
+        display:block;
+        width:100%;
+    }
+
+    .participation {
+        flex-direction: column;
+    }
+
+    .intro {
+        height:auto;
+    }
+
+    p {
+        text-indent:0%;
+    }
+}
+
+@media print {
+    html {
+        background: #A67449;
+        color: #140000;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.3rem;
+    
+    }
+
+    header {
+        background: #A67449;
+        color: #734C29;
+    }
+}
+
