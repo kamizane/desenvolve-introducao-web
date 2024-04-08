@@ -1,0 +1,144 @@
+/*Na página como um todo, foi utilizado recursos como flexbox e reposicionamento para melhor estilização da página e disposição do conteúdo ao usuário*/
+
+html {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /*a escolha da fonte sans-serif serve para facilitar a leitura de textos em telas*/
+    font-size: 1.2em;
+    text-indent: 2em;
+    text-align: justify;
+}
+
+
+header {
+    text-align: center;
+}
+
+.mybackground {
+    background-image: url(https://th.bing.com/th/id/R.87d855da98d60076c445ee473796e2d1?rik=e3HRqyWaht3smQ&riu=http%3a%2f%2f2.bp.blogspot.com%2f-KF0NLWuIB9E%2fVovnXJLnmtI%2fAAAAAAAACgI%2fbEq7iTGw2Mg%2fs1600%2fCAPA.png&ehk=n4D%2bK5vC5x%2bZsTm3tTZvEjmZgRWMrdgENmNnDvkEqEA%3d&risl=&pid=ImgRaw&r=0);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mybackground h1 {
+    text-align: center;
+}
+
+.section1 {
+    display: contents;
+    align-items: center;
+}
+
+.img1 {
+
+    padding-top: 650px;
+
+}
+
+.titulo {
+    font-family: "lobster", sans-serif;
+    text-align: center;
+    margin-top: 600px;
+    margin-bottom: 400px;
+}
+
+.section2 {
+    /*    background-color: #26262D;*/
+    display: inline;
+    /*há no elemento display, a mudança da forma de exibição da classe estilizada alterando a exibição em bloco (padrão). para exibição em linha.*/
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 400px;
+    margin-bottom: 100px;
+    width: 50%;
+    position: relative;
+
+}
+
+.section2 p {
+    margin-top: 100px;
+    width: 50%;
+    padding-left: 20px;
+    border-right: solid #000 2px;
+    padding-right: 30px;
+}
+
+.section2 h2 {
+    padding-left: 100px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section2 img {
+    float: right;
+    /*o recurso float garante que o elemento fique desgarrado da sua posição de origem*/
+    margin-right: 100px;
+}
+
+
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-bottom: 200px;
+    margin-top: 400px;
+    padding-left: 20px;
+}
+
+.plado {
+    position: absolute;
+    top: 3010px;
+    left: 52%;
+    padding-right: 20px;
+    border-left: solid #000 2px;
+    padding-left: 10px;
+}
+
+.section3 {
+    position: absolute;
+    width: 50%;
+    padding-left: 20px;
+
+}
+
+
+.section4 {
+    position: absolute;
+    left: 50%;
+    top: 4300px;
+    width: 50%;
+    border-left: solid #000 3px;
+    padding-right: 20px;
+    padding-left: 10px;
+    flex-wrap: wrap;
+
+}
+
+.footer {
+    background-image: var(--bs-gradient);
+    display: block;
+    position: relative;
+    top: 1300px;
+    text-align: end;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    /* a partir disso, os links deixam de ter o sublinhado, o que garante menor poluição na página*/
+
+}
+
+button {
+    margin-left: 45%;
+}
+
+.lastsec {
+    border-bottom: solid #000 2px;
+    display: block;
+    position: relative;
+    top: 1300px;
+
+}
