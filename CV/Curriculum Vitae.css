@@ -1,0 +1,54 @@
+html {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    /*a escolha da fonte sans-serif serve para facilitar a leitura de textos em telas*/
+    text-indent: 2em;
+    text-align: justify;
+    background-color: rgb(65, 52, 52);
+    color: white;
+    padding-left: 10px;
+}
+
+.barra_de_navegacao li {
+    display: inline;
+}
+
+.cabecalho img {
+    border-radius: 50%;
+
+}
+
+.cabecalho {
+    position: relative;
+}
+
+.sobre{
+    width: 40%;
+}
+
+.educacao{
+    position:absolute;
+    left: 50%;
+    top:20%
+}
+
+.certificacoes {
+    position:absolute;
+    left: 80%;
+    top:20%
+}
+
+.experiencias {
+    position:absolute;
+    left: 50%;
+    top:60%;
+}
+
+.experiencias p {
+    width: 50%;
+}
+
+.habilidades_tecnicas {
+    position:absolute;
+    left: 80%;
+    top:60%
+}
